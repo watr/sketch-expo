@@ -1,0 +1,21 @@
+{
+  "source": "./sample.sketch",
+  "destination": "./icon/",
+  "targets" : [
+    {
+      "type": "layer",
+      "name": "foo",
+      "body": "appicon"
+      "exports": [
+        {
+          "width": 76,
+          "suffix": ""
+        },
+        {
+            "width": 120,
+            "suffix": "@2x"
+        } 
+      ]
+    }
+  ]
+}
